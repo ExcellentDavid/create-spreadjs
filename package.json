@@ -1,0 +1,35 @@
+{
+  "name": "create-spreadjs",
+  "version": "1.2.26",
+  "description": "An easy way to start a SpreadJS project.",
+  "type": "module",
+  "bin": {
+    "create-spreadjs": "./outfile.cjs"
+  },
+  "scripts": {
+    "build": "node ./scripts/build.js"
+  },
+  "keywords": [
+    "create",
+    "spreadjs",
+    "cli"
+  ],
+  "author": "ExcellentDavid",
+  "license": "MIT",
+  "devDependencies": {
+    "@inquirer/confirm": "^2.0.12",
+    "@inquirer/input": "^1.2.11",
+    "@inquirer/select": "^1.2.11",
+    "chalk": "^5.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "download-git-repo": "^3.0.2",
+    "esbuild": "^0.19.3",
+    "ora": "^7.0.1",
+    "prettier": "^3.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
